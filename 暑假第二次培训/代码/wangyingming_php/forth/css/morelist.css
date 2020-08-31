@@ -1,0 +1,311 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	min-width: 1000px;
+	height: 900px;
+	font-family: 微软雅黑;
+	font-size: 16px;
+	background-color: rgb(255, 255, 255);
+	position: relative;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+/* head */
+.head{
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+.head .backgroundimg{
+	position: absolute;
+	z-index: -1;
+}
+.head .backgroundimg img{
+	width: 100%;
+	height: 200px;
+}
+.headconcent{
+	width: 490px;
+	height: 35px;
+	background-color: red;
+	position: absolute;
+	right: 100px;
+	top: 15px;
+	background-color:rgb(122, 181, 221);
+}
+.headconcent .settings{
+	width: 260px;
+	height: 100%;
+	text-align: center;
+	line-height: 35px;
+	float: left;
+}
+.headconcent .settings span{
+	margin: 0 15px;
+	color: white;
+}
+.headconcent .settings span:nth-child(odd)
+{
+	cursor: pointer;
+}
+.headconcent .searchbox{
+	width: 210px;
+	height: 100%;
+	position: relative;
+	margin-left: 15px;
+	float: right;
+}
+.headconcent .searchbox .search{
+	border: 0;
+	width: 150px;
+	height: 100%;
+	border-radius: 5px;
+	padding-left:15px ;
+	outline: none;
+}
+.headconcent .searchbox .button{
+	background-color: rgb(8, 68, 102);
+	color: white;
+	width: 40px;
+	height: 100%;
+	border: 0px;
+	outline: none;
+	cursor: pointer;
+}
+.covercss{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(122, 181, 221);
+	z-index: 10;
+	opacity: 0.4;
+}
+/* 下拉菜单 */
+.navbardiv{
+	width: 100%;
+	height:60px;
+	margin: 1px 0;
+	background-color: rgb(8, 68, 102);
+}
+.navbar{
+	width: 1260px;
+	height: 60px;
+	margin: 0 auto;
+}
+.navfir a{
+	color: white;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.navfir a:hover{
+	background-color:rgb(122, 181, 221);
+}
+.navfir>li{
+	float: left;
+	width: 140px;
+	height: 100%;
+	line-height: 60px;
+	text-align: center;
+}
+.navsec{
+	width: inherit;
+	position: absolute;
+}
+.navsec li{
+	width: 150%;
+	height: 30px;
+	background-color: rgb(8, 68, 102);
+	line-height: 30px;
+	text-align: center;
+	display: none;
+	position: relative;
+}
+.navsec a{
+	width: 100%;
+	height: 100%;
+}
+/*  */
+.operationdiv{
+	width: 100%;
+	height: 720px;
+}
+.operation{
+	width: 85%;
+	height:100%;
+	margin: 0 auto;
+}
+.leftbar{
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color: rgb(244, 244, 244);
+}
+.leftbar .contacttips>span{
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	margin-left: 30px;
+	color: rgb(153, 0, 0);
+	display: block;
+}
+.leftbar .contacttips a>span{
+	height: 40px;
+	font-size: 15px;
+	line-height: 40px;
+	margin-left: 30px;
+	display: block;
+}
+.leftbar .contacttips a{
+	display: block;
+}
+.leftbar .contacttips a:hover{
+	background-color:#990000;
+	color: white;
+}
+.img{
+	height: 240px;
+}
+.img span{
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	margin-left: 30px;
+	color: rgb(153, 0, 0);
+	display: block;
+}
+.img ul{
+	height: 197px;
+	position: relative;
+}
+.img ul li{
+	float: left;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: red;
+}
+.img ul img{
+	width: 100%;
+	height: 100%;
+}
+.morelinks>span{
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	margin-left: 30px;
+	display: block;
+	color: rgb(153, 0, 0);
+}
+.morelinks>span{
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	margin-left: 30px;
+	display: block;
+	color: rgb(153, 0, 0);
+}
+.morelinks a span{
+	height: 40px;
+	font-size: 15px;
+	line-height: 40px;
+	margin-left: 30px;
+	display: block;
+}
+.morelinks a{
+	display: block;
+}
+.morelinks a:hover{
+	background-color:#990000;
+	color: white;
+}
+.filedownload{
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+.filedownload .title{
+	width: 100%;
+	height: 60px;
+}
+.filedownload .title .room{
+	display: inline-block;
+	height: 100%;
+}
+.filedownload .title .room img{
+	margin: 0 15px;
+	margin-top:15px;
+}
+.title span{
+	display: inline-block;
+	font-size:20px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.downlist{
+	margin-top: 20px;
+}
+.downlist .filename{
+	float: left;
+}
+.downlist .filename li{
+	font-size: 15px;
+	padding: 10px;
+	line-height: 15px;
+}
+.downlist .filename li:before{
+	content: "▶";
+	font-size: 10px;
+}
+.flag{
+	background-color: rebeccapurple;
+}
+.downlist .fliedata{
+	float: right;
+}
+.downlist .fliedata li{
+	font-size: 15px;
+	padding: 10px;
+	line-height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+	width: 90%;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: rgb(8, 68, 102);
+}
+.information{
+	width: 80%;
+	height: 80px;
+	margin:0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+.information a:hover{
+	color:darkgoldenrod;
+}

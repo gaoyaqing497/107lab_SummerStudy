@@ -1,0 +1,24 @@
+.searchbox{
+    width: 1000px;
+    height: auto;
+    background-color:blanchedalmond;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.searchbox h3{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.mescontent{
+    overflow: hidden;
+    text-indent: 2em;
+    color:black;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	height: 177px;
+	background-color: #fff;
+}
+.header-nav{
+	width: 100%;
+	margin-top:128px;
+	position: absolute;
+	font-size: 16px;
+	font-family: "Oswald",sans-serif;
+	font-weight: 400;
+}
+.home>li>a:not(.first-active){
+	color:#797979;
+} 
+.first-active{
+	color: white;
+	background-color: #b6124a;
+	border-radius: 5px;
+}
+.home>li>a:hover{
+	color: #b6124a;
+	background-color: transparent;
+}
+.us-right{
+	display: block;
+	font-style: italic;
+    font-family: Georgia;
+    color: #999;
+    margin: 30px 0 30px;
+    padding: 10px 20px;
+	font-size: 17.5px;
+	border-left: 5px solid #eee;
+}
+.read-more{
+	color: #b6124a;
+	font-size: 16px;
+	font-weight: 600;
+}
+.read-more:hover{
+	color: #2a6496;
+}
+.fourth li{
+	list-style: none;
+	padding: 4px 0 5px 30px;
+	position: relative;
+	left:-35px;
+	border-top: 1px solid #f2f2f2;
+	background: url(../img/arrow.png) no-repeat 0 10px;
+}
+.fourth li a{
+	color:#b6124a;
+}
+.bigdata{
+	width:100%;
+}
+.link1{
+	line-height:25px ;
+	display:block;
+	padding-left: 15px;
+	color: #fff;
+	background-color: #b6124a;
+}
+.link2{
+	display:block;
+	padding-left: 10px;
+	line-height:25px;
+	color: #000;
+	background-color: gainsboro;
+}
+.link2:hover{
+	color: #000;
+	background-color: rgba(0,0,0,0.5);;
+}
+.icon a {
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 32px;
+	color: #8C8C8C;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.icon a:hover{
+	color: #b6124a;
+}
+.footer a{
+	font-size: 12px;
+	color: #aaa;
+}
+.footer a:hover{
+	color: white;
+}
+.footer p{
+	font-size: 12px;
+	color: #aaa;
+}
+.drop>li>a{
+	display: block;
+	height: 32px;
+    line-height: 25px;
+	color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(0,0,0,0.7);
+}
+.drop>li>a:hover{
+	color: white;
+	background-color:rgba(0,0,0,0.5) ;
+}
+.dropdown-menu {
+	border-bottom: 8px solid  rgba(0,0,0,0.7);
+	border-top: 8px solid  rgba(0,0,0,0.7) ;
+	padding: 0;
+	background-color: transparent;
+}
+h2{
+	display: block;
+	margin-bottom: 30px;
+	font-weight: normal;
+	font-family: 'Oswald',sans-serif !important;
+}

@@ -1,0 +1,129 @@
+.mainNav>li{
+    color: #797979;
+    transition: 0.5s;
+}
+.mainNav>li:hover{
+    color: #b6124a;
+}
+
+/* h2标题 */
+h2{
+    color: black;
+    margin: 30px 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    display:block;
+}
+
+/* button */
+.btn-inline{
+    color: #b6124a;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-inline:hover{
+    color: #428bca;
+}
+blockquote{
+    font-style: italic;
+    font-family: Georgia;
+    color: #999;
+}
+blockquote>small{
+    font-size: 80%;
+    color: #999;
+}
+
+
+.custom-list li{
+    height: 50px;
+}
+.custom-list2 li{
+    height: 70px;
+}
+.list li{
+    list-style: none;
+    border-top: 1px solid #f2f2f2;
+    background: url(../images/arrow.png) no-repeat 0 11px;
+    padding: 4px 0 5px 30px;
+}
+.list ul{
+    padding-left: 0;
+}
+.list li>a{
+    color: #b6124a;
+}
+/* box链接部分 */
+.box{
+    margin-bottom: 10px;
+}
+.box img{
+    width: 100%;
+}
+.box_title{
+    background: #b6124a;
+    padding: 5px 2px;
+    display: block;
+    text-indent: 12px;
+    width: 100%;
+}
+.box_title a{
+    color: #fff;
+}
+.box_title a:hover{
+    color: #428bca;
+}
+.box .caption{
+    padding: 9px;
+    color: #333;
+    background: #DDD;
+}
+
+/*  */
+.cap_inner a{
+    color: black;
+}
+.caption:hover{
+    background-color: #686868;
+}
+
+/* Footer Start */
+#footer{
+    background-color: #DDD;
+    margin-top: 40px;
+}
+.social{
+    margin: 20px 0;
+}
+.fa{
+    padding: 6px;
+}
+.fa img{
+    width: 30px;
+}
+.footer2{
+    background-color: #222;
+    padding: 15px 0;
+    color: #aaa;
+    font-size: 12px;
+}
+.simplenav>a{
+    color: #aaa;
+    font-size: 12px;
+    padding: 5px;
+}
+.footer2 a:hover{
+    color: #fff;
+}
+/* Footer End */
+.navbar.navbar-inverse{
+    background: url(../images/backgroundimg.png) right 0 no-repeat;
+}
+
+.Banner{
+    background-image: url(../images/banner2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-top: 2px solid #b6124a;
+    border-bottom: 2px solid #b6124a;
+}

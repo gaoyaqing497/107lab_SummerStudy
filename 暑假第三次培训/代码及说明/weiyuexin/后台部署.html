@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>后台部署\功能介绍</title>
+	<style type="text/css">
+		body > ul{
+			width: 80%;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li>
+			<h2>分页</h2>
+			<ul>
+				<li>
+					<p>在HTML/news.php以及HTML/theory.php中增加了分页功能</p>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<h2>图片上传</h2>
+			<ul>
+				<li>
+					<p>PHP/add_news.php和PHP/add_theory.php中添加了上传图片的form表单，分别由PHP/add_newscheck.php和PHP/add_theory.php执行上传图片操作</p>
+				</li>
+				<li>
+					<p>图片上传到uploads/</p>
+				</li>
+				<li>
+					<p>点击HTML/news.php以及HTML/theory.php以及首页中对应的新闻或理论学习可以跳转到HTML/shownews.php和HTML/showtheory.php中查看上传的图片</p>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<h2>搜索</h2>
+			<ul>
+				<li>
+					<p>在index.php、PHP/indexadmin.php、PHP/index_super_admin.php、HTML/shownews.php、HTML/showtheory.php、PHP/search.php、PHP/search_news.php、PHP/search_theory.php中添加了搜索的form表单</p>
+				</li>
+				<li>
+					<p>点击提交form表单可以跳转到PHP/search.php、PHP/search_news.php、PHP/search_theory.php中查看搜索到的内容</p>
+				</li>
+				<li>
+					<p>PHP/search.php显示在news和theory数据表中搜索到的内容、PHP/search_theory.php显示在theory数据表中搜索到的内容、PHP/search_news.php显示在news数据表中搜索到的内容</p>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<h2>验证码</h2>
+			<ul>
+				<li>
+					<p>PHP/register.php添加验证码用于普通管理员的注册</p>
+				</li>
+			    <li>
+			    	<p>PHP/super_register.php添加验证码用于超级管理员的注册</p>
+			    </li>
+			    <li>
+			    	<p>PHP/login.php添加验证码用于普通管理员的登录</p>
+			    </li>
+			    <li>
+			    	<p>PHP/login.php添加验证码用于超级管理员的登录</p>
+			    </li>
+			</ul>
+		</li>
+	</ul>
+</body>
+</html>
